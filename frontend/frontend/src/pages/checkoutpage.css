@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.checkoutdivno1{
+    width: 100vh;
+    height: 100vh;
+    background-color:#d1d2d3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.checkoutdivno2{
+    width: 70%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    
+}
+.checkoutdivno3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.checkoutdivno3 label{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.checkoutdivno3 input{
+    padding: 6px 120px;
+    border:none;
+    border-radius: 6px;
+    margin-left: 15px;
+    border: 1px gray solid;
+}
+
+
+.checkoutdivno20 {
+    grid-area: payment-method-label; /* Assign a grid area for easy placement */
+    margin-top: 10px;
+  }
+ .checkoutdivno20 p{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+ } 
+  
+  .checkoutdivno19 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Divide into two columns */
+    grid-template-areas:
+      "payment-method-label payment-method-options" /* Define areas for label and options */
+      "payment-method-label payment-method-options"; /* Repeat for responsiveness */
+  }
+  
+
+.checkoutdivno4{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+.checkoutdivno5{
+    width: 60%;
+    height: 90%;
+
+}
+.checkoutdivno6{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 15px;
+}
+.checkoutdivno6 label{
+    margin-bottom: 10px;
+}
+.checkoutdivno8{
+    display: flex;
+    justify-content:start;
+}
+.checkoutdivno7{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.checkoutdivno9{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.checkoutdivno10{
+    display: flex;
+    justify-content:start;
+}
+.checkoutdivno10 label{
+    margin-bottom: 10px;
+}
+.checkoutdivno11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 10%;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-evenly;
+    border-radius: 8px;
+
+}
+.checkoutdivno12{
+    display: flex;
+    margin-bottom: 5px;
+    justify-content:space-between;
+}
+.checkoutdivno13{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.checkoutdivnopi{
+    color: rgb(18, 165, 223);
+}
+.checkoutdivno15{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 15px;
+}
+.checkoutdivno16{
+    display: flex;
+    justify-content:start;
+}
+.checkoutdivno16 label{
+    margin-bottom: 10px;
+}
+.checkoutdivno17{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-between;
+}
+.checkoutdivno18{
+
+}
+.checkoutdivno18 button{
+    padding:8px 90px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+}

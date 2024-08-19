@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.usrprddiscon {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+}
+
+.usrprddiscon1 {
+    width: 100vh;
+    height: 98%;
+    display: flex;
+}
+
+.carousel-container {
+    padding: 20px;
+    width: 52vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.procolumn2 img {
+    width: 90vw; /* Adjust the width to your desired size */
+    height: auto;
+}
+
+.procolumn2 {
+    object-fit: contain;
+}
+
+
+
+
+.prodetails-container{
+    width: 42%;
+    padding: 20px 20px;
+}
+
+.prodetails-container1{
+    padding: 10px 10px;
+
+}
+.prodetails-container1 p{
+    margin-top: 15px;
+}
+.prodetails-container2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 15px;
+}
+.star-filled {
+    color: gold;
+    font-size: 26px;
+  
+  }
+  
+  .star-empty {
+    color: #ccc;
+    font-size: 26px;
+  
+  }
+.prodetails-container2 p{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.prodetails-container3{
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+}
+.prodetails-container4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.prodetails-container4 h3{
+    font-size: 30px;
+}
+.prodetails-container4 span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.prodetails-container4 p{
+    margin-top: 10px;
+}
+.prodetails-container5{
+    display: flex;
+    margin-top: 20px;
+
+}
+.prodetails-container5 p{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.BiSolidOffer{
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(255, 166, 0);
+}
+.prodetails-container6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.prodetails-container7{
+    padding: 20px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    margin-right: 15px;
+    border-radius: 8px;
+}
+.prodetails-container8{
+    margin-top: 20px;
+    display: flex;
+    justify-content:start;
+    color: rgb(34, 135, 139);
+
+}
+.prodetails-container9{
+    padding: 20px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    margin-left: 15px;
+    border-radius: 8px;
+}
+.prodetails-container10{
+    margin-top: 20px;
+    display: flex;
+    justify-content:start;
+    color: rgb(29, 133, 137);
+}
+
+
+
+.otherdetails-container{
+    width: 25%;
+    height: 70vh;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 7px;
+}
+.otherdetails-container1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.otherdetails-container2 span{
+    font-size: 16px;
+    color: rgb(22, 234, 22);
+}
+.otherdetails-container3{
+    color: rgb(130, 130, 247);
+
+}
+.otherdetails-container4{
+    color: rgb(24, 184, 24);
+
+}
+.otherdetails-container5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.otherdetails-container6{
+    margin-top: 10px;
+    display: flex;
+    color: rgb(134, 134, 239);
+}
+.otherdetails-container6 p{
+    margin-left: 5px;
+}
+.otherdetails-container7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.otherdetails-containerbtn1{
+    padding: 7px 70px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 10px;
+    background: rgb(234, 181, 10);
+    cursor: pointer;
+}
+.otherdetails-containerbtn2{
+    padding: 7px 80px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(231, 124, 10);
+    cursor: pointer;
+}
+.reviewwrite1{
+    width: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.reviewwrite2{
+    width: 20%;
+    display: flex;
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+.reviewwrite2 p{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.reviewwrite3{
+    width: 20%;
+}
+
+
+
+.reviewbox100{
+    width: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  } 
+  .reviewbox200{
+    width: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+  } 
+  .reviewbox300{
+    width:60vh;
+    height: 10vh;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 7px; 
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 250px;
+  }
+  .reviewbox400{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+  } 
+  .reviewbox400 img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .reviewbox500{
+    display: flex;
+  }
+  .reviewbox700{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
+  }
+  .reviewbox600{
+    margin-left: 50px;
+    display: flex;
+  }
+  .reviewbox800{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .reviewbox10{
+  display: flex;
+  margin-left: 20px;
+  }
+  .reviewbox10 p{
+    color: red;
+    cursor: pointer;
+  }
+  
+  .star-filled {
+    color: gold;
+    font-size: 26px;
+  
+  }
+  
+  .star-empty {
+    color: #ccc;
+    font-size: 26px;
+  
+  }
+  
+  
+
+
+
+
+  .modal-container{
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .modal{
+    width: 100%;
+    height: 10vh;
+    border-radius: 10px;
+    padding:  40px;
+    text-align: center;
+    background-color: rgb(255, 251, 251);
+
+  }
+  .modal11 input{
+    padding: 5px 40px;
+
+  }
+  .modal11rating{
+  }
+  .modal22{
+    margin-top: 10px;
+  }
+  .modal22btn12{
+    background-color: rgb(79, 79, 216);
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 10px;
+  }
+  .modal22btn13{
+    background-color: rgb(226, 73, 73);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 10px;
+  }

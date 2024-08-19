@@ -1,0 +1,8 @@
+.main{
+    height:200px;
+    background-image:url("main-image.jpg");
+    display:flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+}

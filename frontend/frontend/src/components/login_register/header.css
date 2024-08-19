@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.imgbox {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.imgboximg {
+    background-image: url("amazonlogin.jpg");
+    width: 170px;
+    height: 80px;
+    background-size: contain; 
+    background-position: center; 
+}

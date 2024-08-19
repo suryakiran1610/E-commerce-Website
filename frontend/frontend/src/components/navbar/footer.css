@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    width: 100vh;
+    height: 100%;
+}
+.footpanel1{
+    height:50px;
+    background-color:#37475a;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footpanel4{
+    height:80px;
+    background-color:#0f1111;
+    color:white;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.pages{
+    font-size: 0.7rem;
+}
+
+.copyright{
+    padding-top: 5px;
+    font-size:0.7rem ;
+}
+.footpanel3{
+    height:100px;
+    background-color: #232f3e;
+    display: flex;
+    border-top: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.nonstop{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.footpanelbox1{
+    height: 60px;
+    width:140px; 
+    margin-right:60px;
+}
+.amlogo{
+    background-size:cover;
+    height:60px;
+}
+
+.footpanelbox2{
+    height: 40px;
+    display:flex;
+    border:1px solid white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    width:10%;
+
+}
+
+.footpanelbox3{
+    height: 40px;
+    width:12%;
+    display:flex;
+    border:1px solid white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+
+}
+.footpanelbox4{
+    height: 40px;
+    width:12%;
+    display:flex;
+    border:1px solid white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.uslogo{
+    width: 25px;
+    height:16px;
+    display: flex;
+    background-size: contain;
+    margin-right:3px;
+
+}
+
+.radius{
+    border-radius: 3px;
+}

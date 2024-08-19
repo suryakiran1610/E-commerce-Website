@@ -1,0 +1,144 @@
+.footpanel4{
+    height:80px;
+    background-color:#0f1111;
+    color:white;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.pages{
+    font-size: 0.7rem;
+}
+
+.copyright{
+    padding-top: 5px;
+    font-size:0.7rem ;
+}
+
+.ordconfdivs0{
+    width: 100vh;
+    height: 72vh;
+}
+.ordconfdivs8{
+    display: flex;
+    justify-content: center;
+}
+.ordconfdivs1{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.ordconfdivs2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ordconfdivs4{
+    background-image: url("amazonback.jpg");
+    width: 200px;
+    height: 100px;
+    background-size:cover;
+}
+  .ordconfdivs4 img{
+      width: 100%;
+      height: 100%;
+  }
+.ordconfdivs3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.ordconfdivs3 h2{
+    color: green;
+    font-weight: 650;
+    font-size: 30px;
+}
+.ordconfdivs5{
+width: 100%;
+height: 10%;
+display: flex;
+justify-content:start;
+}
+.ordconfdivs6{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.ordconfdivs6 h3{
+    color: #f79412;
+    font-size: 24px;
+}
+.ordconfdivs11{
+    width: 100%;
+    height: 20%;
+    margin-top: 20px;
+    display: flex;
+}
+.ordconfdivs12{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ordconfdivs12 h3{
+    color: #f9981b;
+    margin-bottom: 10px;
+}
+.ordconfdivs12 h5{
+    font-size: 17px;
+}
+.ordconfdivs12 span{
+    color: blue;
+    font-size: 17px;
+}
+.ordconfdivs13{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.ordconfdivs14{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ordconfdivs14 h3{
+    color: green;
+    margin-top: 10px;
+}
+.ordconfdivs15{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ordconfdivs15 button{
+    padding: 14px 70px;
+    border: none;
+    background-color: rgb(224, 160, 41);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.ordconfdivs16{
+    width: 100%;
+    height: 20%;
+    margin-top: 20px;
+    display: flex;
+}
+.ordconfdivs17{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
